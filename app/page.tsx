@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { Greet } from "./components/greet";
+import { Counter } from "./components/counter";
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
           height={38}
           priority
         />
+        <Greet/>
+        <Counter/>
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
             Get started by editing{" "}
@@ -21,7 +25,7 @@ export default function Home() {
             .
           </li>
           <li>If you don't save your changes, it will not reflect on the output screen.</li>
-          <li>Even you don't need to reload the page{"Hello "}.</li>
+          <li>Even you don't need to reload the page{" Hello"}.</li>
           <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold" >This is the page.</code>
         </ol>
 
