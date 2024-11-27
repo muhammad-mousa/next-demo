@@ -20,7 +20,9 @@ export default function Home() {
             </code>
             .
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li>If you don't save your changes, it will not reflect on the output screen.</li>
+          <li>Even you don't need to reload the page{"Hello "}.</li>
+          <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold" >This is the page.</code>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
