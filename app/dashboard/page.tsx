@@ -13,7 +13,7 @@ import {
   SidebarProvider,
   SidebarTrigger,
 } from "@/components/ui/sidebar"
-import { ClerkProvider, SignedIn, SignedOut, SignIn, SignInButton, UserButton } from "@clerk/nextjs"
+import { ClerkProvider, SignedIn, SignedOut, SignIn, UserButton } from "@clerk/nextjs"
 
 export default function Dashboard() {
   return (
