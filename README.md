@@ -1,3 +1,6 @@
+## Deployment Status
+[![Deploy Next.js site to Pages](https://github.com/muhammad-mousa/next-demo/actions/workflows/nextjs.yml/badge.svg)](https://github.com/muhammad-mousa/next-demo/actions/workflows/nextjs.yml)
+
 ## Development Setup
 
 First, clone the repo by using the following command:
