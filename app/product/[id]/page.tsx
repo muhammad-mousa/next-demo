@@ -1,6 +1,11 @@
-export default async function product({params}: {params: {id: string} }) {
-    console.log("This is an example of the dynamic Routing.")
-    
-    const {id} = await params;
-    return <h1>product: {id}</h1>
+type tParams = Promise<{ slug: string[] }>;
+
+export default async function Challenge(props: { params: tParams }) {
+    const { slug } = await props.params;
+    const productID = slug[1];
+    return (
+        <div>
+            <h1>Product ID: {productID}</h1>
+        </div>
+    );
 }
